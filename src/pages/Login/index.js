@@ -17,7 +17,7 @@ export default function Login() {
           <label htmlFor="senha">Digite sua senha:</label>
           <input type="password" />
 
-          <div className="acoes">
+          <div className="quadrado">
             <div className="botoes">
               <button type="submit">Entrar</button>
               </div>

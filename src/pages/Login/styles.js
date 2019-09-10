@@ -33,10 +33,7 @@ export const Container = styled.div`
     font-size: 15px;
     width: 100%;
     border: 3px solid #599ac2;
-    &::placeholder {
-      color: #999;
-    }
-  }
+    
   }
 
   button:hover {
@@ -51,14 +48,14 @@ export const Container = styled.div`
 
   button {
     color: black;
-    width: 140px;
+    width: 200px;
     height: 50px;
     opacity: 0.8;
     border-radius: 30px;
     cursor: pointer;
     margin: 10px;
   }
-  .acoes {
+  .quadrado {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -70,7 +67,7 @@ export const Container = styled.div`
   }
 
    @media (max-width: 600px) {
-    .acoes {
+    .quadrado {
       flex-direction: column;
     }
       form {

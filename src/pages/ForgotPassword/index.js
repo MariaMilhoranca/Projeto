@@ -13,7 +13,7 @@ export default function ForgotPassoword() {
           <label htmlFor="email">Digite seu e-mail:</label>
           <input type="text" />
 
-          <div className="acoes">
+          <div className="quadrado">
             <button type="submit">Enviar</button>
             <ul>
             <Link to="/">Voltar ao login</Link>

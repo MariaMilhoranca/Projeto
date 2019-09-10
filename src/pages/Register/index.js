@@ -19,7 +19,7 @@ export default function Register() {
           <label htmlFor="senha">Digite sua Senha:</label>
           <input type="password" />
 
-          <div className="acoes">
+          <div className="quadrado">
             <button type="submit">Cadastrar</button>
            
             <ul>
